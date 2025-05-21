@@ -33,13 +33,17 @@ body {
 }
 
 .header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   width: 1320px;
   height: 100px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   transform: translateY(-20px);
+  background-color: #fff;
 }
 
 .logo {
