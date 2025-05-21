@@ -35,7 +35,10 @@ body {
 }
 
 .gnb {
+    position: fixed;
+    backgound: #fff;
     display: flex;
+    
 }
 .gnb>li{
     padding-top: 38px;
