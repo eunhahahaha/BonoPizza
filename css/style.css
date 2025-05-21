@@ -28,32 +28,32 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 999;
-  transition: top 0.3s ease;
+  z-index: 9;
+   transition: top 0.3s ease;
 }
 
+/* 가운데 정렬용 내부 컨테이너 */
 .header {
-  margin: 0 auto;
   width: 1320px;
   height: 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #fff;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
+/* 로고 왼쪽 */
 .logo {
-    padding-top: 24px;
+  float: left;
+  padding-top: 25px;
 }
 
+/* GNB 오른쪽 */
 .gnb {
-    position: fixed;
-    backgound: #fff;
-    display: flex;
-    
+  float: right;
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
 .gnb>li{
-    padding-top: 38px;
     padding-left: 57px;
 }
 
