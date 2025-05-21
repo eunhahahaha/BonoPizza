@@ -623,7 +623,25 @@
     <!-- CDN방식으로 들고 온 제이쿼리 -->
     <script src="./js/script.js"></script>
     <!-- 내가 꾸민 제이쿼리 -->
-     
+          <!-- 헤더 -->
+      <script>
+  let lastScrollTop = 0;
+  const header = document.getElementById("header_wrap");
+
+  window.addEventListener("scroll", function () {
+    const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (currentScroll > lastScrollTop) {
+      // 아래로 스크롤 → 헤더 숨기기
+      header.style.top = "-100px";
+    } else {
+      // 위로 스크롤 → 헤더 보이기
+      header.style.top = "0";
+    }
+
+    lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // 모바일 bounce 방지
+  });
+</script>
     
 </body>
 </html> 
