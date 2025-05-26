@@ -75,41 +75,41 @@ body {
 }
 /* banner */
 #banner_wrap {
-    height: 900px;
+    height: 1000px;
     margin: 0 auto;
 
 }
 
 .slide {
-    height: 900px;
+    height: 1000px;
     position: relative;
 }
 
 .slide li {
-    height: 900px;
+    height: 1000px;
 
 }
 .slide li div{
-    height: 900px;
+    height: 1000px;
         width: 100%;
    position: absolute;
 top: 0;
 left: 0;
 }
 .main1 {
-    height: 900px;
+    height: 1000px;
     background: url(../images/main1.jpg) no-repeat center;
 
 }
 
 .main2 {
-    height: 900px;
+    height: 1000px;
     background: url(../images/main2.jpg) no-repeat center;
 
 }
 
 .main3 {
-    height: 900px;
+    height: 1000px;
     background: url(../images/main3.jpg) no-repeat center;
 
 }
